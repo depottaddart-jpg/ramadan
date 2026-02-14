@@ -1,0 +1,28 @@
+{
+  "appId": "com.matbakh.alnakhat",
+  "appName": "مطبخ النكهات",
+  "webDir": ".",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release-key.keystore",
+      "keystoreAlias": "matbakh-alnakhat"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#c84a31",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "backgroundColor": "#c84a31",
+      "style": "light"
+    }
+  }
+}
